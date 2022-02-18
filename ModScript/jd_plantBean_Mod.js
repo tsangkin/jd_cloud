@@ -138,13 +138,13 @@ async function jdPlantBean() {
       message += `【上期时间】${roundList[num - 1].dateDesc.replace('上期 ', '')}\n`;
       message += `【上期成长值】${roundList[num - 1].growth}\n`;
       await receiveNutrients();//定时领取营养液
-      await doTask();//做日常任务
+      // await doTask();//做日常任务
       // await doEgg();
-      await stealFriendWater();
-      await doCultureBean();
-      await doGetReward();
-      await showTaskProcess();
-      await plantShareSupportList();
+      // await stealFriendWater();
+      // await doCultureBean();
+     //  await doGetReward();
+     //  await showTaskProcess();
+      // await plantShareSupportList();
     } else {
       console.log(`种豆得豆-初始失败:  ${JSON.stringify($.plantBeanIndexResult)}`);
     }
