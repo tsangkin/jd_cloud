@@ -105,26 +105,26 @@ async function main() {
 	try {
 		$.score = 0;
 		$.earn = false;
-		await getTaskDetail(-1);
-		await getTaskDetail(16);
+		// await getTaskDetail(-1);
+		// await getTaskDetail(16);
 		UserShareCodes = "";
-		await getTaskDetail(6);
+		// await getTaskDetail(6);
 		for (let i = 0; i < 5; ++i) {
 			$.canDo = false;
-			await getTaskDetail();
+			// await getTaskDetail();
 			if (!$.canDo)
 				break;
 			await $.wait(1000);
 		}
-		await collectScore();
+		// await collectScore();
 		if (llhelp){
 			await helpFriends();
 		}
-		await getTaskDetail(22);
-		await getTaskDetail(-1);
+		// await getTaskDetail(22);
+		// await getTaskDetail(-1);
 
 		if (reward) {
-			await getCommodities();
+			// await getCommodities();
 		}
 
 	} catch (e) {
