@@ -184,14 +184,14 @@ async function jdPet() {
             }
             $.taskInfo = $.taskInit.result;
 			
-            await petSport(); //遛弯
+            //await petSport(); //遛弯
 			if (llhelp){
 				await slaveHelp(); //助力好友
 			}
             await masterHelpInit(); //获取助力的信息
-            await doTask(); //做日常任务
-            await feedPetsAgain(); //再次投食
-            await energyCollect(); //收集好感度
+            //await doTask(); //做日常任务
+            //await feedPetsAgain(); //再次投食
+            //await energyCollect(); //收集好感度
             await showMsg();
             
         } else if (initPetTownRes.code === '0') {
