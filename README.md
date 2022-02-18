@@ -8,5 +8,5 @@
 	
 源仓库:
 
-	- [ccwav](https://github.com/ccwav/QLScript2)
+- [ccwav](https://github.com/ccwav/QLScript2)
 	
